@@ -33,7 +33,8 @@ public class ExThree extends MouseAdapter{
         f.setVisible(true);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
-    public void mouseClicked(ActionEvent e){
+
+    public void mouseClicked(MouseEvent e){
         String n1 = num1.getText();
         String n2 = num2.getText();
 
@@ -44,7 +45,7 @@ public class ExThree extends MouseAdapter{
 
         Output.setText("Sum : "+sum_x1_x2);
     }
-    public void mouseReleased(ActionEvent e){
+    public void mouseReleased(MouseEvent e){
         String n1 = num1.getText();
         String n2 = num2.getText();
 

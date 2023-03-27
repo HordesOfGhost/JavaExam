@@ -24,12 +24,7 @@ public class KeyAdapterEx extends KeyAdapter{
         t1.addKeyListener(this);
 
     }
-    //Here two of following function neednot be overidden
-    // @Override
-    // public void keyTyped(KeyEvent e){}
-    // @Override
-    // public void keyPressed(KeyEvent e){
-    // }
+
     @Override
     public void keyReleased(KeyEvent e){
         String copy = t1.getText();
